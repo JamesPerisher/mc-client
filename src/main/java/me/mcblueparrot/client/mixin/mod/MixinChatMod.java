@@ -178,7 +178,25 @@ public class MixinChatMod {
 
 	@Mixin(ChatLine.class)
 	public static abstract class MixinChatLine implements ChatAnimationData {
+		
+		public float transparency = 0.5f;
+		public float lasttransparency = 0.5f;
+		
+		public float getTransparency() {
+			return this.transparency;
+		}
 
+		public void setTransparency(float transparency2) {
+			this.transparency = transparency2;
+		}
+		
+		public float getLastTransparency() {
+			return this.lasttransparency;
+		}
+
+		public void setLastTransparency(float lasttransparency2) {
+			this.lasttransparency = lasttransparency2;
+		}
 	}
 
 }

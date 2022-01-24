@@ -9,8 +9,7 @@ import me.mcblueparrot.client.culling.Cullable;
 public abstract class MixinTileEntity implements Cullable {
 
 	
-	
-	private boolean culled = false;
+	public boolean culled = false;
 	
 	public boolean getCulled() {
 		return this.culled;

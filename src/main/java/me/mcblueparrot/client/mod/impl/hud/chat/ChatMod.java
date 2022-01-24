@@ -158,6 +158,7 @@ public class ChatMod extends HudMod {
 					.getChatGUI()).getDrawnChatLines())) {
 				line.setLastTransparency(line.getTransparency());
 				line.setTransparency(line.getTransparency() * ANIMATION_MULTIPLIER);
+
 			}
 		}
 	}
