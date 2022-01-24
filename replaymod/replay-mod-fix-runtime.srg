@@ -1,0 +1,152 @@
+MD: net/minecraft/entity/player/EntityPlayer/func_145782_y ()I net/minecraft/entity/player/EntityPlayer/getEntityId ()I
+FD: com/replaymod/replay/camera/CameraEntity/field_70166_s com/replaymod/replay/camera/CameraEntity/prevPosZ
+CL: net/minecraftforge/fml/common/network/internal/FMLProxyPacket me/mcblueparrot/client/util/Stub
+MD: net/minecraft/util/BlockPos/func_177952_p ()I net/minecraft/util/BlockPos/getZ ()I
+CL: com/replaymod/recording/ReplayModRecording me/mcblueparrot/client/mod/impl/replay/fix/SCReplayModRecording
+MD: com/replaymod/replay/camera/CameraEntity/func_110306_p ()Lnet/minecraft/util/ResourceLocation; com/replaymod/replay/camera/CameraEntity/getLocationSkin ()Lnet/minecraft/util/ResourceLocation;
+FD: com/replaymod/replay/mixin/entity_tracking/Mixin_EntityExt/field_70177_z com/replaymod/replay/mixin/entity_tracking/Mixin_EntityExt/rotationYaw
+MD: net/minecraft/client/entity/EntityPlayerSP/func_146103_bH ()Lcom/mojang/authlib/GameProfile; net/minecraft/client/entity/EntityPlayerSP/getGameProfile ()Lcom/mojang/authlib/GameProfile;
+FD: net/minecraft/client/particle/EntityFX/field_70161_v net/minecraft/client/particle/EntityFX/posZ
+MD: net/minecraft/entity/player/EntityPlayer/func_70660_b (Lnet/minecraft/potion/Potion;)Lnet/minecraft/potion/PotionEffect; net/minecraft/entity/player/EntityPlayer/getActivePotionEffect (Lnet/minecraft/potion/Potion;)Lnet/minecraft/potion/PotionEffect;
+CL: net/minecraftforge/client/event/GuiScreenEvent$KeyboardInputEvent$Pre me/mcblueparrot/client/event/impl/PreGuiKeyboardInputEvent
+CL: net/minecraftforge/client/event/GuiScreenEvent$MouseInputEvent$Pre me/mcblueparrot/client/event/impl/PreGuiMouseInputEvent
+FD: com/replaymod/replay/camera/CameraEntity/field_70127_C com/replaymod/replay/camera/CameraEntity/prevRotationPitch
+MD: net/minecraft/util/ChatComponentText/func_150255_a (Lnet/minecraft/util/ChatStyle;)Lnet/minecraft/util/IChatComponent; net/minecraft/util/ChatComponentText/setChatStyle (Lnet/minecraft/util/ChatStyle;)Lnet/minecraft/util/IChatComponent;
+FD: net/minecraft/client/entity/EntityPlayerSP/field_70122_E net/minecraft/client/entity/EntityPlayerSP/onGround
+FD: net/minecraft/entity/passive/EntityAnimal/field_70758_at net/minecraft/entity/passive/EntityAnimal/prevRotationYawHead
+MD: com/replaymod/core/ReplayMod$1/func_130077_b ()Ljava/lang/String; com/replaymod/core/ReplayMod$1/getPackName ()Ljava/lang/String;
+FD: net/minecraft/entity/player/EntityPlayer/field_70125_A net/minecraft/entity/player/EntityPlayer/rotationPitch
+MD: com/replaymod/replay/camera/CameraEntity/func_70678_g (F)F com/replaymod/replay/camera/CameraEntity/getSwingProgress (F)F
+FD: net/minecraft/client/entity/EntityPlayerSP/field_70126_B net/minecraft/client/entity/EntityPlayerSP/prevRotationYaw
+MD: com/replaymod/replay/camera/CameraEntity/func_70094_T ()Z com/replaymod/replay/camera/CameraEntity/isEntityInsideOpaqueBlock ()Z
+MD: net/minecraft/client/entity/EntityPlayerSP/func_174822_a (DF)Lnet/minecraft/util/MovingObjectPosition; net/minecraft/client/entity/EntityPlayerSP/rayTrace (DF)Lnet/minecraft/util/MovingObjectPosition;
+MD: net/minecraft/client/entity/EntityPlayerSP/func_82150_aj ()Z net/minecraft/client/entity/EntityPlayerSP/isInvisible ()Z
+MD: net/minecraft/client/entity/EntityOtherPlayerMP/func_70107_b (DDD)V net/minecraft/client/entity/EntityOtherPlayerMP/setPosition (DDD)V
+FD: com/replaymod/replay/camera/CameraEntity/field_70167_r com/replaymod/replay/camera/CameraEntity/prevPosY
+MD: net/minecraft/entity/passive/EntityAnimal/func_70608_bn ()Z net/minecraft/entity/passive/EntityAnimal/isPlayerSleeping ()Z
+CL: net/minecraftforge/client/event/GuiScreenEvent$ActionPerformedEvent$Pre me/mcblueparrot/client/event/impl/ActionPerformedEvent
+MD: com/replaymod/replay/camera/CameraEntity/func_70067_L ()Z com/replaymod/replay/camera/CameraEntity/canBeCollidedWith ()Z
+FD: com/replaymod/replay/camera/CameraEntity/field_70145_X com/replaymod/replay/camera/CameraEntity/noClip
+MD: com/replaymod/replay/camera/CameraEntity/func_174822_a (DF)Lnet/minecraft/util/MovingObjectPosition; com/replaymod/replay/camera/CameraEntity/rayTrace (DF)Lnet/minecraft/util/MovingObjectPosition;
+FD: com/replaymod/replay/mixin/entity_tracking/Mixin_EntityExt/field_70125_A com/replaymod/replay/mixin/entity_tracking/Mixin_EntityExt/rotationPitch
+CL: net/minecraftforge/client/event/EntityViewRenderEvent$CameraSetup me/mcblueparrot/client/event/impl/CameraRotateEvent
+CL: net/minecraftforge/fml/common/gameevent/TickEvent$RenderTickEvent me/mcblueparrot/client/event/impl/RenderTickEvent
+MD: net/minecraft/entity/EntityLivingBase/func_82150_aj ()Z net/minecraft/entity/EntityLivingBase/isInvisible ()Z
+FD: com/replaymod/core/mixin/Mixin_ContextualKeyBindings/field_74516_a com/replaymod/core/mixin/Mixin_ContextualKeyBindings/keybindArray
+CL: net/minecraftforge/client/event/RenderGameOverlayEvent$Post me/mcblueparrot/client/event/impl/PostGameOverlayRenderEvent
+FD: com/replaymod/render/mixin/Mixin_ForceChunkLoading/field_147595_R com/replaymod/render/mixin/Mixin_ForceChunkLoading/displayListEntitiesDirty
+FD: com/replaymod/replay/camera/CameraEntity/field_70125_A com/replaymod/replay/camera/CameraEntity/rotationPitch
+FD: com/replaymod/replay/mixin/MixinRenderManager/field_78735_i com/replaymod/replay/mixin/MixinRenderManager/playerViewY
+MD: com/replaymod/replay/camera/CameraEntity/func_174808_Z ()V com/replaymod/replay/camera/CameraEntity/createRunningParticles ()V
+FD: net/minecraft/client/particle/EntityFX/field_70166_s net/minecraft/client/particle/EntityFX/prevPosZ
+MD: net/minecraft/client/entity/EntityPlayerSP/func_70690_d (Lnet/minecraft/potion/PotionEffect;)V net/minecraft/client/entity/EntityPlayerSP/addPotionEffect (Lnet/minecraft/potion/PotionEffect;)V
+MD: net/minecraft/client/multiplayer/WorldClient/func_72954_a (Lnet/minecraft/world/IWorldAccess;)V net/minecraft/client/multiplayer/WorldClient/addWorldAccess (Lnet/minecraft/world/IWorldAccess;)V
+MD: net/minecraft/client/renderer/texture/DynamicTexture/func_110552_b ()I net/minecraft/client/renderer/texture/DynamicTexture/getGlTextureId ()I
+MD: com/replaymod/replay/camera/CameraEntity/func_175156_o ()F com/replaymod/replay/camera/CameraEntity/getFovModifier ()F
+MD: com/replaymod/replay/camera/CameraEntity/func_175149_v ()Z com/replaymod/replay/camera/CameraEntity/isSpectator ()Z
+FD: net/minecraft/client/entity/EntityPlayerSP/field_71071_by net/minecraft/client/entity/EntityPlayerSP/inventory
+MD: net/minecraft/client/entity/EntityPlayerSP/func_110306_p ()Lnet/minecraft/util/ResourceLocation; net/minecraft/client/entity/EntityPlayerSP/getLocationSkin ()Lnet/minecraft/util/ResourceLocation;
+MD: net/minecraft/client/entity/EntityPlayerSP/func_175149_v ()Z net/minecraft/client/entity/EntityPlayerSP/isSpectator ()Z
+FD: com/replaymod/replay/camera/CameraEntity/field_70142_S com/replaymod/replay/camera/CameraEntity/lastTickPosX
+MD: com/replaymod/replay/camera/CameraEntity/func_70104_M ()Z com/replaymod/replay/camera/CameraEntity/canBePushed ()Z
+FD: net/minecraft/client/particle/EntityFX/field_70163_u net/minecraft/client/particle/EntityFX/posY
+MD: net/minecraft/client/multiplayer/WorldClient/func_175661_b (Ljava/lang/Class;Lcom/google/common/base/Predicate;)Ljava/util/List; net/minecraft/client/multiplayer/WorldClient/getPlayers (Ljava/lang/Class;Lcom/google/common/base/Predicate;)Ljava/util/List;
+MD: net/minecraft/util/BlockPos/func_177958_n ()I net/minecraft/util/BlockPos/getX ()I
+MD: com/replaymod/replay/camera/CameraEntity/func_70106_y ()V com/replaymod/replay/camera/CameraEntity/setDead ()V
+FD: net/minecraft/client/entity/EntityOtherPlayerMP/field_70177_z net/minecraft/client/entity/EntityOtherPlayerMP/rotationYaw
+MD: com/replaymod/replay/camera/CameraEntity/func_175148_a (Lnet/minecraft/entity/player/EnumPlayerModelParts;)Z com/replaymod/replay/camera/CameraEntity/isWearing (Lnet/minecraft/entity/player/EnumPlayerModelParts;)Z
+MD: com/replaymod/render/mixin/Mixin_ForceChunkLoading/func_174970_a (Lnet/minecraft/entity/Entity;DLnet/minecraft/client/renderer/culling/ICamera;IZ)V com/replaymod/render/mixin/Mixin_ForceChunkLoading/setupTerrain (Lnet/minecraft/entity/Entity;DLnet/minecraft/client/renderer/culling/ICamera;IZ)V
+FD: net/minecraft/client/entity/EntityPlayerSP/field_70181_x net/minecraft/client/entity/EntityPlayerSP/motionY
+CL: net/minecraftforge/fml/common/gameevent/PlayerEvent$ItemPickupEvent me/mcblueparrot/client/event/impl/ItemPickupEvent
+FD: net/minecraft/client/entity/EntityPlayerSP/field_70127_C net/minecraft/client/entity/EntityPlayerSP/prevRotationPitch
+FD: com/replaymod/render/mixin/MixinGlStateManager/field_179162_o com/replaymod/render/mixin/MixinGlStateManager/activeTextureUnit
+FD: net/minecraft/client/entity/EntityPlayerSP/field_70159_w net/minecraft/client/entity/EntityPlayerSP/motionX
+FD: net/minecraft/client/entity/EntityPlayerSP/field_70759_as net/minecraft/client/entity/EntityPlayerSP/rotationYawHead
+MD: net/minecraft/entity/EntityLivingBase/func_98034_c (Lnet/minecraft/entity/player/EntityPlayer;)Z net/minecraft/entity/EntityLivingBase/isInvisibleToPlayer (Lnet/minecraft/entity/player/EntityPlayer;)Z
+CL: net/minecraftforge/fml/client/registry/ClientRegistry me/mcblueparrot/client/mod/impl/replay/fix/SCClientRegistry
+MD: net/minecraft/client/entity/EntityPlayerSP/func_70101_b (FF)V net/minecraft/client/entity/EntityPlayerSP/setRotation (FF)V
+MD: net/minecraft/client/multiplayer/WorldClient/func_72964_e (II)Lnet/minecraft/world/chunk/Chunk; net/minecraft/client/multiplayer/WorldClient/getChunkFromChunkCoords (II)Lnet/minecraft/world/chunk/Chunk;
+FD: com/replaymod/recording/mixin/MixinNetHandlerLoginClient/field_147393_d com/replaymod/recording/mixin/MixinNetHandlerLoginClient/networkManager
+MD: net/minecraft/client/multiplayer/WorldClient/func_72863_F ()Lnet/minecraft/world/chunk/IChunkProvider; net/minecraft/client/multiplayer/WorldClient/getChunkProvider ()Lnet/minecraft/world/chunk/IChunkProvider;
+FD: com/replaymod/recording/mixin/MixinNetHandlerPlayClient/field_147310_i com/replaymod/recording/mixin/MixinNetHandlerPlayClient/playerInfoMap
+MD: com/replaymod/replay/camera/CameraEntity/func_175154_l ()Ljava/lang/String; com/replaymod/replay/camera/CameraEntity/getSkinType ()Ljava/lang/String;
+CL: net/minecraftforge/client/ForgeHooksClient me/mcblueparrot/client/mod/impl/replay/fix/SCForgeHooksClient
+MD: net/minecraft/entity/player/EntityPlayer/func_110124_au ()Ljava/util/UUID; net/minecraft/entity/player/EntityPlayer/getUniqueID ()Ljava/util/UUID;
+MD: net/minecraft/client/renderer/texture/DynamicTexture/func_147631_c ()V net/minecraft/client/renderer/texture/DynamicTexture/deleteGlTexture ()V
+MD: net/minecraft/client/entity/EntityPlayerSP/func_70608_bn ()Z net/minecraft/client/entity/EntityPlayerSP/isPlayerSleeping ()Z
+FD: net/minecraft/client/particle/EntityFX/field_70167_r net/minecraft/client/particle/EntityFX/prevPosY
+CL: com/replaymod/core/SettingsRegistry$SettingKey me/mcblueparrot/client/mod/impl/replay/fix/SCSettingsRegistry$SettingKey
+MD: com/replaymod/replay/mixin/Mixin_FixNPCSkinCaching/func_175155_b ()Lnet/minecraft/client/network/NetworkPlayerInfo; com/replaymod/replay/mixin/Mixin_FixNPCSkinCaching/getPlayerInfo ()Lnet/minecraft/client/network/NetworkPlayerInfo;
+FD: net/minecraft/client/entity/EntityPlayerSP/field_70125_A net/minecraft/client/entity/EntityPlayerSP/rotationPitch
+MD: net/minecraft/server/integrated/IntegratedServer/func_71270_I ()Ljava/lang/String; net/minecraft/server/integrated/IntegratedServer/getFolderName ()Ljava/lang/String;
+FD: net/minecraft/client/entity/EntityPlayerSP/field_82175_bq net/minecraft/client/entity/EntityPlayerSP/isSwingInProgress
+FD: net/minecraft/client/entity/EntityPlayerSP/field_110158_av net/minecraft/client/entity/EntityPlayerSP/swingProgressInt
+FD: net/minecraft/client/entity/EntityPlayerSP/field_70161_v net/minecraft/client/entity/EntityPlayerSP/posZ
+FD: net/minecraft/client/particle/EntityFX/field_70169_q net/minecraft/client/particle/EntityFX/prevPosX
+FD: net/minecraft/entity/player/EntityPlayer/field_70177_z net/minecraft/entity/player/EntityPlayer/rotationYaw
+FD: net/minecraft/client/entity/EntityPlayerSP/field_70165_t net/minecraft/client/entity/EntityPlayerSP/posX
+FD: net/minecraft/entity/player/EntityPlayer/field_70175_ag net/minecraft/entity/player/EntityPlayer/addedToChunk
+MD: com/replaymod/replay/camera/CameraEntity/func_70090_H ()Z com/replaymod/replay/camera/CameraEntity/isInWater ()Z
+CL: com/replaymod/core/versions/scheduler/SchedulerImpl me/mcblueparrot/client/mod/impl/replay/fix/SCScheduler
+FD: com/replaymod/replay/camera/CameraEntity/field_70163_u com/replaymod/replay/camera/CameraEntity/posY
+FD: net/minecraft/client/entity/EntityPlayerSP/field_70163_u net/minecraft/client/entity/EntityPlayerSP/posY
+FD: com/replaymod/render/mixin/MixinRenderManager/field_78735_i com/replaymod/render/mixin/MixinRenderManager/playerViewY
+MD: net/minecraft/client/entity/EntityPlayerSP/func_175148_a (Lnet/minecraft/entity/player/EnumPlayerModelParts;)Z net/minecraft/client/entity/EntityPlayerSP/isWearing (Lnet/minecraft/entity/player/EnumPlayerModelParts;)Z
+MD: net/minecraft/server/integrated/IntegratedServer/func_130014_f_ ()Lnet/minecraft/world/World; net/minecraft/server/integrated/IntegratedServer/getEntityWorld ()Lnet/minecraft/world/World;
+CL: com/replaymod/lib/de/johni0702/minecraft/gui/utils/EventRegistrations me/mcblueparrot/client/mod/impl/replay/fix/SCEventRegistrations
+FD: com/replaymod/replay/camera/CameraEntity/field_70169_q com/replaymod/replay/camera/CameraEntity/prevPosX
+MD: com/replaymod/replay/camera/CameraEntity/func_70065_x ()V com/replaymod/replay/camera/CameraEntity/preparePlayerToSpawn ()V
+MD: com/replaymod/replay/camera/CameraEntity/func_180799_ab ()Z com/replaymod/replay/camera/CameraEntity/isInLava ()Z
+FD: com/replaymod/replay/camera/CameraEntity/field_70177_z com/replaymod/replay/camera/CameraEntity/rotationYaw
+FD: net/minecraft/client/particle/EntityFX/field_70165_t net/minecraft/client/particle/EntityFX/posX
+FD: com/replaymod/render/mixin/Mixin_ChromaKeyColorSky/field_72777_q com/replaymod/render/mixin/Mixin_ChromaKeyColorSky/mc
+CL: net/minecraftforge/fml/common/eventhandler/SubscribeEvent me/mcblueparrot/client/event/EventHandler
+FD: net/minecraft/entity/passive/EntityAnimal/field_70759_as net/minecraft/entity/passive/EntityAnimal/rotationYawHead
+FD: com/replaymod/replay/camera/CameraEntity/field_70131_O com/replaymod/replay/camera/CameraEntity/height
+CL: com/replaymod/core/SettingsRegistry me/mcblueparrot/client/mod/impl/replay/fix/SCSettingsRegistry
+FD: com/replaymod/render/mixin/MixinRenderManager/field_78732_j com/replaymod/render/mixin/MixinRenderManager/playerViewX
+FD: com/replaymod/replay/camera/CameraEntity/field_70161_v com/replaymod/replay/camera/CameraEntity/posZ
+FD: com/replaymod/replay/camera/CameraEntity/field_71071_by com/replaymod/replay/camera/CameraEntity/inventory
+FD: com/replaymod/replay/mixin/MixinPlayerControllerMP/field_78774_b com/replaymod/replay/mixin/MixinPlayerControllerMP/netClientHandler
+MD: net/minecraft/entity/player/EntityPlayer/func_82150_aj ()Z net/minecraft/entity/player/EntityPlayer/isInvisible ()Z
+MD: com/replaymod/replay/camera/CameraEntity/func_82150_aj ()Z com/replaymod/replay/camera/CameraEntity/isInvisible ()Z
+FD: net/minecraft/client/multiplayer/WorldClient/field_73010_i net/minecraft/client/multiplayer/WorldClient/playerEntities
+MD: net/minecraft/client/entity/EntityPlayerSP/func_70065_x ()V net/minecraft/client/entity/EntityPlayerSP/preparePlayerToSpawn ()V
+MD: com/replaymod/replay/camera/CameraEntity/func_174826_a (Lnet/minecraft/util/AxisAlignedBB;)V com/replaymod/replay/camera/CameraEntity/setEntityBoundingBox (Lnet/minecraft/util/AxisAlignedBB;)V
+FD: net/minecraft/client/entity/EntityPlayerSP/field_70177_z net/minecraft/client/entity/EntityPlayerSP/rotationYaw
+FD: com/replaymod/render/mixin/Mixin_ForceChunkLoading/field_174995_M com/replaymod/render/mixin/Mixin_ForceChunkLoading/renderDispatcher
+CL: com/replaymod/compat/ReplayModCompat me/mcblueparrot/client/mod/impl/replay/fix/SCReplayModCompat
+FD: com/replaymod/render/mixin/Mixin_SkipBlockOutlinesDuringRender/field_72777_q com/replaymod/render/mixin/Mixin_SkipBlockOutlinesDuringRender/mc
+MD: com/replaymod/replay/camera/CameraEntity/func_130014_f_ ()Lnet/minecraft/world/World; com/replaymod/replay/camera/CameraEntity/getEntityWorld ()Lnet/minecraft/world/World;
+CL: net/minecraftforge/event/entity/player/PlayerSleepInBedEvent me/mcblueparrot/client/event/impl/PlayerSleepEvent
+MD: com/replaymod/render/mixin/MixinChunkRenderWorker/func_178474_a (Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator;)V com/replaymod/render/mixin/MixinChunkRenderWorker/processTask (Lnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator;)V
+FD: com/replaymod/compat/mapwriter/mixin/MixinMinecraft/field_71422_O com/replaymod/compat/mapwriter/mixin/MixinMinecraft/currentServerData
+CL: com/replaymod/core/ReplayModBackend me/mcblueparrot/client/mod/impl/replay/fix/SCReplayModBackend
+MD: net/minecraft/client/entity/EntityPlayerSP/func_175154_l ()Ljava/lang/String; net/minecraft/client/entity/EntityPlayerSP/getSkinType ()Ljava/lang/String;
+MD: com/replaymod/replay/camera/CameraEntity/func_70101_b (FF)V com/replaymod/replay/camera/CameraEntity/setRotation (FF)V
+MD: net/minecraft/client/entity/EntityPlayerSP/func_82170_o (I)V net/minecraft/client/entity/EntityPlayerSP/removePotionEffect (I)V
+FD: com/replaymod/replay/mixin/MixinPlayerControllerMP/field_78776_a com/replaymod/replay/mixin/MixinPlayerControllerMP/mc
+FD: net/minecraft/client/entity/EntityOtherPlayerMP/field_70125_A net/minecraft/client/entity/EntityOtherPlayerMP/rotationPitch
+CL: net/minecraftforge/fml/common/FMLCommonHandler me/mcblueparrot/client/mod/impl/replay/fix/SCFMLCommonHandler
+FD: com/replaymod/replay/camera/CameraEntity/field_70130_N com/replaymod/replay/camera/CameraEntity/width
+CL: net/minecraftforge/client/event/RenderGameOverlayEvent$Pre me/mcblueparrot/client/event/impl/PreGameOverlayRenderEvent
+MD: net/minecraft/client/entity/EntityPlayerSP/func_70694_bm ()Lnet/minecraft/item/ItemStack; net/minecraft/client/entity/EntityPlayerSP/getHeldItem ()Lnet/minecraft/item/ItemStack;
+FD: net/minecraft/client/entity/EntityPlayerSP/field_70154_o net/minecraft/client/entity/EntityPlayerSP/ridingEntity
+FD: com/replaymod/render/mixin/Mixin_ChromaKeyForceSky/field_78531_r com/replaymod/render/mixin/Mixin_ChromaKeyForceSky/mc
+FD: com/replaymod/replay/camera/CameraEntity/field_96093_i com/replaymod/replay/camera/CameraEntity/entityUniqueID
+FD: net/minecraft/client/multiplayer/WorldClient/field_72996_f net/minecraft/client/multiplayer/WorldClient/loadedEntityList
+MD: net/minecraft/entity/player/EntityPlayer/func_70678_g (F)F net/minecraft/entity/player/EntityPlayer/getSwingProgress (F)F
+FD: com/replaymod/replay/camera/CameraEntity/field_70126_B com/replaymod/replay/camera/CameraEntity/prevRotationYaw
+MD: com/replaymod/replay/camera/CameraEntity/func_70027_ad ()Z com/replaymod/replay/camera/CameraEntity/isBurning ()Z
+FD: net/minecraft/client/entity/EntityPlayerSP/field_70179_y net/minecraft/client/entity/EntityPlayerSP/motionZ
+MD: net/minecraft/util/BlockPos/func_177956_o ()I net/minecraft/util/BlockPos/getY ()I
+CL: com/replaymod/core/utils/ModInfoGetter me/mcblueparrot/client/mod/impl/replay/fix/SCModInfoGetter
+MD: net/minecraft/client/entity/EntityPlayerSP/func_145782_y ()I net/minecraft/client/entity/EntityPlayerSP/getEntityId ()I
+FD: com/replaymod/replay/camera/CameraEntity/field_70136_U com/replaymod/replay/camera/CameraEntity/lastTickPosZ
+FD: com/replaymod/replay/camera/CameraEntity/field_70137_T com/replaymod/replay/camera/CameraEntity/lastTickPosY
+FD: com/replaymod/replay/camera/CameraEntity/field_70170_p com/replaymod/replay/camera/CameraEntity/worldObj
+MD: com/replaymod/replay/camera/CameraEntity/func_70055_a (Lnet/minecraft/block/material/Material;)Z com/replaymod/replay/camera/CameraEntity/isInsideOfMaterial (Lnet/minecraft/block/material/Material;)Z
+CL: net/minecraftforge/client/event/RenderGameOverlayEvent$ElementType me/mcblueparrot/client/event/impl/GameOverlayElement
+MD: net/minecraft/client/entity/EntityPlayerSP/func_70106_y ()V net/minecraft/client/entity/EntityPlayerSP/setDead ()V
+FD: com/replaymod/replay/camera/CameraEntity/field_70165_t com/replaymod/replay/camera/CameraEntity/posX
+MD: net/minecraft/entity/item/EntityItem/func_145782_y ()I net/minecraft/entity/item/EntityItem/getEntityId ()I
