@@ -218,10 +218,21 @@ public class ModsScreen extends GuiScreen {
 				for(Mod mod : category.getMods(searchField.getText())) {
 					Rectangle rectangle = new Rectangle(width / 2 - 150, y - amountScrolled, 300, 30);
 					boolean containsMouse = rectangle.contains(mouseX, mouseY) && region.contains(mouseX, mouseY);
-
-					Colour fill = new Colour(0, 0, 0, 150);
+					
+					
+					
+					
+					
+					Colour fill;
+					
 					Colour outline;
 					String description = mod.getDescription();
+					if (mod.isEnabled()) {
+						fill = new Colour(255, 0, 0, 150);
+					}
+					else {
+						fill = new Colour(0, 0, 0, 150);
+					}
 					if(mod.isBlocked()) {
 						if(containsMouse) {
 							outline = new Colour(255, 80, 80);

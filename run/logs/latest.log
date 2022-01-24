@@ -1,236 +1,70 @@
-[10:59:08] [main/INFO]: Extra: [--tweakClass, me.mcblueparrot.client.tweak.Tweaker]
-[10:59:08] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, /home/pauln07/.gradle/caches/minecraft/assets, --assetIndex, 1.8, --accessToken{REDACTED}, --version, 1.8.9, --tweakClass, me.mcblueparrot.client.tweak.Tweaker]
-[10:59:08] [main/INFO]: Loading tweak class name me.mcblueparrot.client.tweak.Tweaker
-[10:59:08] [main/INFO]: Using primary tweak class name me.mcblueparrot.client.tweak.Tweaker
-[10:59:08] [main/INFO]: Calling tweak class me.mcblueparrot.client.tweak.Tweaker
-[10:59:08] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/home/pauln07/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.11-SNAPSHOT/7a670207bdb97db418118ad1e9bb42424ff3776d/mixin-0.7.11-SNAPSHOT.jar Service=LaunchWrapper Env=UNKNOWN
-[10:59:08] [main/INFO]: FML platform manager could not load class cpw.mods.fml.relauncher.CoreModManager. Proceeding without FML support.
-[10:59:08] [main/INFO]: Compatibility level set to JAVA_8
-[10:59:08] [main/ERROR]: Mixin config mixins.solclient.json does not specify "minVersion" property
-[10:59:08] [main/INFO]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[10:59:08] [main/INFO]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[10:59:09] [main/INFO]: Remapping refMap mixins.solclient.refmap.json using /home/pauln07/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/22/srgs/srg-mcp.srg
-[10:59:09] [main/INFO]: Remapping refMap mixins.replaymod.refmap.json using /home/pauln07/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/22/srgs/srg-mcp.srg
-[10:59:09] [main/INFO]: Remapping refMap mixins.replaymod.refmap.json using /home/pauln07/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/22/srgs/srg-mcp.srg
-[10:59:09] [main/INFO]: Remapping refMap mixins.replaymod.refmap.json using /home/pauln07/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/22/srgs/srg-mcp.srg
-[10:59:09] [main/INFO]: Remapping refMap mixins.replaymod.refmap.json using /home/pauln07/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/22/srgs/srg-mcp.srg
-[10:59:09] [main/INFO]: Remapping refMap mixins.replaymod.refmap.json using /home/pauln07/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/22/srgs/srg-mcp.srg
-[10:59:09] [main/INFO]: Remapping refMap mixins.replaymod.refmap.json using /home/pauln07/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/22/srgs/srg-mcp.srg
-[10:59:10] [main/WARN]: Error loading class: net/minecraftforge/fml/common/network/handshake/NetworkDispatcher (java.lang.ClassNotFoundException: The specified class 'net.minecraftforge.fml.common.network.handshake.NetworkDispatcher' was not found)
-[10:59:10] [main/WARN]: @Mixin target net.minecraftforge.fml.common.network.handshake.NetworkDispatcher was not found mixins.recording.replaymod.json:MixinNetworkDispatcher
-[10:59:10] [main/WARN]: Error loading class: net/minecraftforge/client/GuiIngameForge (java.lang.ClassNotFoundException: The specified class 'net.minecraftforge.client.GuiIngameForge' was not found)
-[10:59:10] [main/WARN]: @Mixin target net.minecraftforge.client.GuiIngameForge was not found mixins.render.replaymod.json:Mixin_SkipHudDuringRender
-[10:59:10] [main/WARN]: Error loading class: net/minecraft/client/renderer/WorldRenderer$LocalRenderInformationContainer (java.lang.ClassNotFoundException: The specified class 'net.minecraft.client.renderer.WorldRenderer$LocalRenderInformationContainer' was not found)
-[10:59:10] [main/WARN]: @Mixin target net.minecraft.client.renderer.WorldRenderer$LocalRenderInformationContainer was not found mixins.render.blend.replaymod.json:ContainerLocalRenderInformationAccessor
-[10:59:10] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[10:59:12] [Client thread/INFO]: Setting user: Player480
-[10:59:12] [Client thread/INFO]: (Session ID is ☃︎)
-[10:59:15] [Client thread/INFO]: LWJGL Version: 2.9.3
-[10:59:16] [Client thread/INFO]: Reloading ResourceManager: Default
-[10:59:16] [Client thread/ERROR]: Couldn't initialize twitch stream
-[10:59:16] [Client thread/INFO]: Initialising...
-[10:59:16] [Client thread/INFO]: Loading settings...
-[10:59:16] [Client thread/INFO]: Loading mods...
-[10:59:16] [Client thread/INFO]: Loaded 34 mods
-[10:59:16] [Client thread/INFO]: Saving settings...
-[10:59:16] [Client thread/INFO]: Starting culling thread...
-[10:59:16] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[10:59:17] [Thread-7/INFO]: Initializing LWJGL OpenAL
-[10:59:17] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[10:59:17] [Thread-7/INFO]: OpenAL initialized.
-[10:59:17] [Sound Library Loader/INFO]: Sound engine started
-[10:59:18] [Client thread/INFO]: Created: 512x512 textures-atlas
-[10:59:19] [Client thread/WARN]: Method overwrite conflict for getHandler in mixins.render.replaymod.json:Mixin_StabilizeCamera, previously written by com.replaymod.render.mixin.Mixin_Omnidirectional_Rotation. Skipping method.
-[10:59:25] [Server thread/INFO]: Starting integrated minecraft server version 1.8.9
-[10:59:25] [Server thread/INFO]: Generating keypair
-[10:59:26] [Server thread/INFO]: Preparing start region for level 0
-[10:59:27] [Server thread/INFO]: Preparing spawn area: 53%
-[10:59:28] [Server thread/INFO]: Changing view distance to 12, from 10
-[10:59:28] [Netty Local Client IO #0/INFO]: Singleplayer Recording is disabled
-[10:59:29] [Server thread/INFO]: Player480[local:E:a37afc11] logged in with entity id 415 at (-188.93240957931067, 75.0, 216.16150684392855)
-[10:59:29] [Server thread/INFO]: Player480 joined the game
-[10:59:32] [Server thread/INFO]: Player480 has just earned the achievement [Taking Inventory]
-[10:59:32] [Client thread/INFO]: [CHAT] Player480 has just earned the achievement [Taking Inventory]
-[10:59:32] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:32] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:32] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:32] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:32] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:32] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:32] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:32] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:32] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:32] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:32] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:32] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:32] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:32] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:32] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:32] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:32] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:33] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:33] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:33] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:33] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:33] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:33] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:33] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:33] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:33] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:33] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:33] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:33] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:33] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:33] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:33] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:33] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:33] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:33] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:34] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:34] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:34] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:34] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:34] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:34] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:34] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:34] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:34] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:34] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:34] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:34] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:34] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:34] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:34] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:34] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:34] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:34] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:34] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:35] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:35] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:35] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:35] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:35] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:35] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:35] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:35] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:35] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:35] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:35] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:35] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:35] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:35] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:35] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:35] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:35] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:35] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:36] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:36] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:36] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:36] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:36] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:36] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:36] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:36] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:36] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:36] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:36] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:36] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:36] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:36] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:36] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:36] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:36] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:36] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:36] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:37] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:37] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:37] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:37] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:37] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:37] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:37] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:37] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:37] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:37] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:37] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:37] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:37] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:37] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:37] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:37] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:37] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:37] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:37] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:38] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:38] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:38] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:38] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:38] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:38] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:38] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:38] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:38] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:38] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:38] [Server thread/INFO]: Saving and pausing game...
-[10:59:38] [Server thread/INFO]: Saving chunks for level 'test'/Overworld
-[10:59:39] [Server thread/INFO]: Saving chunks for level 'test'/Nether
-[10:59:39] [Server thread/INFO]: Saving chunks for level 'test'/The End
-[10:59:39] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:39] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:39] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:39] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:39] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:39] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:39] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:39] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:39] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:39] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:39] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:39] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:39] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:39] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:39] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:39] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:39] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:39] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:40] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:40] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:40] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:40] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:40] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:40] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:40] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:40] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:40] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:40] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:40] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:40] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:40] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:40] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:40] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:40] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:40] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:40] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:40] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:40] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:41] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:41] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:41] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:41] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:41] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:41] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:41] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:41] [Client thread/INFO]: chatline: net.minecraft.client.gui.ChatLine@663d59edclass net.minecraft.client.gui.ChatLine
-[10:59:41] [Server thread/INFO]: Saving and pausing game...
-[10:59:41] [Server thread/INFO]: Saving chunks for level 'test'/Overworld
-[10:59:41] [Server thread/INFO]: Saving chunks for level 'test'/Nether
-[10:59:41] [Server thread/INFO]: Saving chunks for level 'test'/The End
-[10:59:42] [Server thread/INFO]: Stopping server
-[10:59:42] [Server thread/INFO]: Saving players
-[10:59:42] [Server thread/INFO]: Saving worlds
-[10:59:42] [Server thread/INFO]: Saving chunks for level 'test'/Overworld
-[10:59:42] [Server thread/INFO]: Saving chunks for level 'test'/Nether
-[10:59:42] [Server thread/INFO]: Saving chunks for level 'test'/The End
-[10:59:44] [Client thread/INFO]: Stopping!
-[10:59:44] [Client thread/INFO]: SoundSystem shutting down...
-[10:59:45] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[12:05:46] [main/INFO]: Extra: [--tweakClass, me.mcblueparrot.client.tweak.Tweaker]
+[12:05:46] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, /home/pauln07/.gradle/caches/minecraft/assets, --assetIndex, 1.8, --accessToken{REDACTED}, --version, 1.8.9, --tweakClass, me.mcblueparrot.client.tweak.Tweaker]
+[12:05:46] [main/INFO]: Loading tweak class name me.mcblueparrot.client.tweak.Tweaker
+[12:05:46] [main/INFO]: Using primary tweak class name me.mcblueparrot.client.tweak.Tweaker
+[12:05:46] [main/INFO]: Calling tweak class me.mcblueparrot.client.tweak.Tweaker
+[12:05:46] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/home/pauln07/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.11-SNAPSHOT/7a670207bdb97db418118ad1e9bb42424ff3776d/mixin-0.7.11-SNAPSHOT.jar Service=LaunchWrapper Env=UNKNOWN
+[12:05:46] [main/INFO]: FML platform manager could not load class cpw.mods.fml.relauncher.CoreModManager. Proceeding without FML support.
+[12:05:46] [main/INFO]: Compatibility level set to JAVA_8
+[12:05:46] [main/ERROR]: Mixin config mixins.solclient.json does not specify "minVersion" property
+[12:05:46] [main/INFO]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[12:05:46] [main/INFO]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[12:05:46] [main/INFO]: Remapping refMap mixins.solclient.refmap.json using /home/pauln07/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/22/srgs/srg-mcp.srg
+[12:05:46] [main/INFO]: Remapping refMap mixins.replaymod.refmap.json using /home/pauln07/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/22/srgs/srg-mcp.srg
+[12:05:46] [main/INFO]: Remapping refMap mixins.replaymod.refmap.json using /home/pauln07/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/22/srgs/srg-mcp.srg
+[12:05:46] [main/INFO]: Remapping refMap mixins.replaymod.refmap.json using /home/pauln07/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/22/srgs/srg-mcp.srg
+[12:05:46] [main/INFO]: Remapping refMap mixins.replaymod.refmap.json using /home/pauln07/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/22/srgs/srg-mcp.srg
+[12:05:47] [main/INFO]: Remapping refMap mixins.replaymod.refmap.json using /home/pauln07/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/22/srgs/srg-mcp.srg
+[12:05:47] [main/INFO]: Remapping refMap mixins.replaymod.refmap.json using /home/pauln07/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/22/srgs/srg-mcp.srg
+[12:05:47] [main/WARN]: Error loading class: net/minecraftforge/fml/common/network/handshake/NetworkDispatcher (java.lang.ClassNotFoundException: The specified class 'net.minecraftforge.fml.common.network.handshake.NetworkDispatcher' was not found)
+[12:05:47] [main/WARN]: @Mixin target net.minecraftforge.fml.common.network.handshake.NetworkDispatcher was not found mixins.recording.replaymod.json:MixinNetworkDispatcher
+[12:05:47] [main/WARN]: Error loading class: net/minecraftforge/client/GuiIngameForge (java.lang.ClassNotFoundException: The specified class 'net.minecraftforge.client.GuiIngameForge' was not found)
+[12:05:47] [main/WARN]: @Mixin target net.minecraftforge.client.GuiIngameForge was not found mixins.render.replaymod.json:Mixin_SkipHudDuringRender
+[12:05:48] [main/WARN]: Error loading class: net/minecraft/client/renderer/WorldRenderer$LocalRenderInformationContainer (java.lang.ClassNotFoundException: The specified class 'net.minecraft.client.renderer.WorldRenderer$LocalRenderInformationContainer' was not found)
+[12:05:48] [main/WARN]: @Mixin target net.minecraft.client.renderer.WorldRenderer$LocalRenderInformationContainer was not found mixins.render.blend.replaymod.json:ContainerLocalRenderInformationAccessor
+[12:05:48] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[12:05:50] [Client thread/INFO]: Setting user: Player880
+[12:05:50] [Client thread/INFO]: (Session ID is ☃︎)
+[12:05:52] [Client thread/INFO]: LWJGL Version: 2.9.3
+[12:05:53] [Client thread/INFO]: Reloading ResourceManager: Default
+[12:05:53] [Client thread/ERROR]: Couldn't initialize twitch stream
+[12:05:53] [Client thread/INFO]: Initialising...
+[12:05:53] [Client thread/INFO]: Loading settings...
+[12:05:53] [Client thread/INFO]: Loading mods...
+[12:05:53] [Client thread/INFO]: Loaded 34 mods
+[12:05:53] [Client thread/INFO]: Saving settings...
+[12:05:53] [Client thread/INFO]: Starting culling thread...
+[12:05:53] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[12:05:54] [Thread-7/INFO]: Initializing LWJGL OpenAL
+[12:05:54] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[12:05:54] [Thread-7/INFO]: OpenAL initialized.
+[12:05:54] [Sound Library Loader/INFO]: Sound engine started
+[12:05:55] [Client thread/INFO]: Created: 512x512 textures-atlas
+[12:05:56] [Client thread/WARN]: Method overwrite conflict for getHandler in mixins.render.replaymod.json:Mixin_StabilizeCamera, previously written by com.replaymod.render.mixin.Mixin_Omnidirectional_Rotation. Skipping method.
+[12:06:03] [Server thread/INFO]: Starting integrated minecraft server version 1.8.9
+[12:06:03] [Server thread/INFO]: Generating keypair
+[12:06:03] [Server thread/INFO]: Preparing start region for level 0
+[12:06:04] [Server thread/INFO]: Preparing spawn area: 82%
+[12:06:04] [Server thread/INFO]: Changing view distance to 12, from 10
+[12:06:04] [Netty Local Client IO #0/INFO]: Singleplayer Recording is disabled
+[12:06:05] [Server thread/INFO]: Player880[local:E:6690121c] logged in with entity id 410 at (-171.9446246815843, 80.0, 212.8694462296514)
+[12:06:05] [Server thread/INFO]: Player880 joined the game
+[12:06:07] [Server thread/INFO]: Player880 has just earned the achievement [Taking Inventory]
+[12:06:07] [Client thread/INFO]: [CHAT] Player880 has just earned the achievement [Taking Inventory]
+[12:06:08] [Server thread/INFO]: Saving and pausing game...
+[12:06:08] [Server thread/INFO]: Saving chunks for level 'test'/Overworld
+[12:06:09] [Server thread/INFO]: Saving chunks for level 'test'/Nether
+[12:06:09] [Server thread/INFO]: Saving chunks for level 'test'/The End
+[12:07:57] [Server thread/INFO]: Saving and pausing game...
+[12:07:57] [Server thread/INFO]: Saving chunks for level 'test'/Overworld
+[12:07:57] [Server thread/INFO]: Saving chunks for level 'test'/Nether
+[12:07:57] [Server thread/INFO]: Saving chunks for level 'test'/The End
+[12:07:59] [Server thread/INFO]: Stopping server
+[12:07:59] [Server thread/INFO]: Saving players
+[12:07:59] [Server thread/INFO]: Saving worlds
+[12:07:59] [Server thread/INFO]: Saving chunks for level 'test'/Overworld
+[12:07:59] [Server thread/INFO]: Saving chunks for level 'test'/Nether
+[12:07:59] [Server thread/INFO]: Saving chunks for level 'test'/The End
+[12:08:02] [Client thread/INFO]: Stopping!
+[12:08:02] [Client thread/INFO]: SoundSystem shutting down...
+[12:08:02] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

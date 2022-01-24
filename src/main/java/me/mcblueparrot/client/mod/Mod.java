@@ -173,8 +173,7 @@ public abstract class Mod {
 	}
 
 	public boolean isEnabled() {
-		// TODO Auto-generated method stub
-		return false;
+		return this.enabled;
 	}
 
 }
