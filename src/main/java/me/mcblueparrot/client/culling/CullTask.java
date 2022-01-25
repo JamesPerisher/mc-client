@@ -124,7 +124,13 @@ public class CullTask implements Runnable {
 										aabbMax.set(pos.getX() + 1d, pos.getY() + 1d, pos.getZ() + 1d);
 
 										boolean visible = culling.isAABBVisible(aabbMin, aabbMax, camera);
-										((Cullable) tile).setCulled(!visible);
+										try {
+											((Cullable) tile).setCulled(!visible);
+										}
+										catch(Exception error3) {
+											LOGGER.error("cant fix it so catch and ignore it.");
+										}
+										
 									}
 								}
 

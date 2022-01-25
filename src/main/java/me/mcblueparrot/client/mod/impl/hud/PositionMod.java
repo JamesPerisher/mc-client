@@ -27,7 +27,7 @@ public class PositionMod extends HudMod {
 	@ConfigOption("Axis Label Colour")
 	private Colour axisLabelColour = new Colour(0, 150, 255);
 	@Expose
-	@ConfigOption("Axis Value Colour")
+	@ConfigOption("Value Colour")
 	private Colour axisValueColour = Colour.WHITE;
 	@Expose
 	@ConfigOption("Cardinal Direction")
@@ -44,14 +44,25 @@ public class PositionMod extends HudMod {
 	@Expose
 	@ConfigOption("Text Shadow")
 	private boolean shadow = true;
+	
+	private int minwidth = 130;
+	private int width=0;
 
 	public PositionMod() {
 		super("Coordinates", "coordinates", "Display your coordinates.");
 	}
-
+	
 	@Override
 	public Rectangle getBounds(Position position) {
-		return new Rectangle(position.getX(), position.getY(), 82, 4 + font.FONT_HEIGHT + 2 + font.FONT_HEIGHT + 2 + font.FONT_HEIGHT + 2);
+		return new Rectangle(position.getX(), position.getY(), width+8, 4 + 3*(font.FONT_HEIGHT + 2));
+	}
+
+	private int max(int a, int b) {
+		if(a>b) {
+			return a;
+		} else {
+			return b;
+		}
 	}
 
 	@Override
@@ -82,83 +93,177 @@ public class PositionMod extends HudMod {
 			z = mc.thePlayer.posZ;
 			yaw = mc.thePlayer.rotationYaw;
 		}
-		int width = 80;
 		int cardinalDirectionIndex = MathHelper.floor_double(
 				((MathHelper.wrapAngleTo180_double(yaw) + 180D + 22.5D) % 360D) / 45D);
 		String[] cardinalDirections = {
-				"N",
+				"N  ",
 				"NE",
-				"E",
+				"E  ",
 				"SE",
-				"S",
+				"S  ",
 				"SW",
-				"W",
+				"W  ",
 				"NW"
 		};
 		String xDirection = null;
 		String zDirection = null;
 		switch(cardinalDirectionIndex) {
 			case 0:
-				zDirection = "--";
+				zDirection = "-";
 				break;
 			case 1:
 				zDirection = "-";
 				xDirection = "+";
 				break;
 			case 2:
-				xDirection = "++";
+				xDirection = "+";
 				break;
 			case 3:
 				zDirection = "+";
 				xDirection = "+";
 				break;
 			case 4:
-				zDirection = "++";
+				zDirection = "+";
 				break;
 			case 5:
 				zDirection = "+";
 				xDirection = "-";
 				break;
 			case 6:
-				xDirection = "--";
+				xDirection = "-";
 				break;
 			case 7:
 				zDirection = "-";
 				xDirection = "-";
 				break;
 		}
+		
+		
+
+		float textx;
+		float rendery;
+		width = minwidth;
+		
+		// Drawing position universal
+		rendery = position.getY() + 4;
+		textx = font.drawString("X: ",
+				position.getX() + 4,
+				rendery            , axisDirectionColour.getValue(), shadow);
+		
+		textx = font.drawString(Integer.toString((int) x),
+				textx - subtract,
+				rendery         , axisValueColour.getValue(), shadow);
+		
+		textx = font.drawString(", Y: ",
+				textx           ,
+				rendery         , axisDirectionColour.getValue(), shadow);
+		
+		textx = font.drawString(Integer.toString((int) y),
+				textx - subtract,
+				rendery         , axisValueColour.getValue(), shadow);
+		
+		textx = font.drawString(", Z: ",
+				textx           ,
+				rendery         , axisDirectionColour.getValue(), shadow);
+		
+		textx = font.drawString(Integer.toString((int) z),
+				textx - subtract,
+				rendery         , axisValueColour.getValue(), shadow);
+		
+		width = max(font.getStringWidth("X: "+Integer.toString((int) x)+", Y: "+Integer.toString((int) y)+", Z: "+Integer.toString((int) z)), width);
+		
+		
+		switch (mc.thePlayer.dimension) {
+		case -1:
+			// Drawing position from nether
+			rendery += font.FONT_HEIGHT + 2;
+			textx = font.drawString("X: ",
+					position.getX() + 4,
+					rendery            , axisDirectionColour.getValue(), shadow);
+			
+			textx = font.drawString(Integer.toString((int) x*8),
+					textx - subtract,
+					rendery         , axisValueColour.getValue(), shadow);
+			
+			textx = font.drawString(", Y: ",
+					textx           ,
+					rendery         , axisDirectionColour.getValue(), shadow);
+			
+			textx = font.drawString(Integer.toString((int) y),
+					textx - subtract,
+					rendery         , axisValueColour.getValue(), shadow);
+			
+			textx = font.drawString(", Z: ",
+					textx           ,
+					rendery         , axisDirectionColour.getValue(), shadow);
+			
+			textx = font.drawString(Integer.toString((int) z*8),
+					textx - subtract,
+					rendery         , axisValueColour.getValue(), shadow);
+			
+			
+			width = max(font.getStringWidth("X: "+Integer.toString((int) x*8)+", Y: "+Integer.toString((int) y)+", Z: "+Integer.toString((int) z*8)), width);
+			break;
+			
+		case 0:
+			// Drawing position from overworld
+			rendery += font.FONT_HEIGHT + 2;
+			textx = font.drawString("X: ",
+					position.getX() + 4,
+					rendery            , axisDirectionColour.getValue(), shadow);
+			
+			textx = font.drawString(Integer.toString((int) x/8),
+					textx - subtract,
+					rendery         , axisValueColour.getValue(), shadow);
+			
+			textx = font.drawString(", Y: ",
+					textx           ,
+					rendery         , axisDirectionColour.getValue(), shadow);
+			
+			textx = font.drawString(Integer.toString((int) y),
+					textx - subtract,
+					rendery         , axisValueColour.getValue(), shadow);
+			
+			textx = font.drawString(", Z: ",
+					textx           ,
+					rendery         , axisDirectionColour.getValue(), shadow);
+			
+			textx = font.drawString(Integer.toString((int) z/8),
+					textx - subtract,
+					rendery         , axisValueColour.getValue(), shadow);
+			
+			width = max(font.getStringWidth("X: "+Integer.toString((int) x/8)+", Y: "+Integer.toString((int) y)+", Z: "+Integer.toString((int) z/8)), width);
+			break;
+		default: // skip rendering scaled coords for other dimensions
+			break;
+		}
+		
+		// drawing facing N, NW, W, etc etc
 		String facing = cardinalDirections[cardinalDirectionIndex];
-		font.drawString(Integer.toString((int) x),
-				font.drawString("X ", position.getX() + 4, position.getY() + 4, axisLabelColour.getValue(), shadow) - subtract,
-				position.getY() + 4, axisValueColour.getValue(), shadow);
-
-		if(xDirection != null && axisDirection) {
-			font.drawString(xDirection, position.getX() + width - font.getStringWidth(xDirection) - 2,
-					position.getY() + 4,
-					axisDirectionColour.getValue(), shadow);
-		}
-
-		font.drawString(Integer.toString((int) y),
-				font.drawString("Y ", position.getX() + 4, position.getY() + 4 + font.FONT_HEIGHT + 2,
-						axisLabelColour.getValue(),
-						shadow) - subtract,
-				position.getY() + 4 + font.FONT_HEIGHT + 2, axisValueColour.getValue(), shadow);
-
 		if(cardinalDirection) {
-			font.drawString(facing, position.getX() + width - font.getStringWidth(facing) - 2,
-					position.getY() + 4 + font.FONT_HEIGHT + 2, cardinalDirectionColour.getValue(), shadow);
+			rendery += font.FONT_HEIGHT + 2;
+			
+			textx = font.drawString("Facing: ",
+					position.getX() + 4,
+					rendery         , cardinalDirectionColour.getValue(), shadow);
+			
+			textx = font.drawString(facing + "    ",
+					textx - subtract,
+					rendery         , axisValueColour.getValue(), shadow);
+			
 		}
-
-		font.drawString(Integer.toString((int) z),
-				font.drawString("Z ", position.getX() + 4,
-						position.getY() + 4 + font.FONT_HEIGHT + 2 + font.FONT_HEIGHT + 2,
-						axisLabelColour.getValue(), shadow) - subtract,
-				position.getY() + 4 + font.FONT_HEIGHT + 2 + font.FONT_HEIGHT + 2, axisValueColour.getValue(), shadow);
+		
+		// Drawing +x-z etc
+		if(xDirection != null && axisDirection) {
+			textx = font.drawString(xDirection + "x ",
+					textx - subtract,
+					rendery         , axisDirectionColour.getValue(), shadow);
+		}
 
 		if(zDirection != null && axisDirection) {
-			font.drawString(zDirection, position.getX() + width - font.getStringWidth(zDirection) - 2,
-					position.getY() + 4 + font.FONT_HEIGHT + 2 + font.FONT_HEIGHT + 2, axisDirectionColour.getValue(),
-					shadow);
+			textx = font.drawString(zDirection + "z ",
+					textx - subtract,
+					rendery         , axisDirectionColour.getValue(), shadow);
 		}
 
 	}

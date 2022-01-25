@@ -228,7 +228,7 @@ public class ModsScreen extends GuiScreen {
 					Colour outline;
 					String description = mod.getDescription();
 					if (mod.isEnabled()) {
-						fill = new Colour(255, 0, 0, 150);
+						fill = SolClientMod.instance.uiActive;
 					}
 					else {
 						fill = new Colour(0, 0, 0, 150);

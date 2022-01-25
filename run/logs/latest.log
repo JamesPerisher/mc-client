@@ -1,70 +1,77 @@
-[12:05:46] [main/INFO]: Extra: [--tweakClass, me.mcblueparrot.client.tweak.Tweaker]
-[12:05:46] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, /home/pauln07/.gradle/caches/minecraft/assets, --assetIndex, 1.8, --accessToken{REDACTED}, --version, 1.8.9, --tweakClass, me.mcblueparrot.client.tweak.Tweaker]
-[12:05:46] [main/INFO]: Loading tweak class name me.mcblueparrot.client.tweak.Tweaker
-[12:05:46] [main/INFO]: Using primary tweak class name me.mcblueparrot.client.tweak.Tweaker
-[12:05:46] [main/INFO]: Calling tweak class me.mcblueparrot.client.tweak.Tweaker
-[12:05:46] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/home/pauln07/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.11-SNAPSHOT/7a670207bdb97db418118ad1e9bb42424ff3776d/mixin-0.7.11-SNAPSHOT.jar Service=LaunchWrapper Env=UNKNOWN
-[12:05:46] [main/INFO]: FML platform manager could not load class cpw.mods.fml.relauncher.CoreModManager. Proceeding without FML support.
-[12:05:46] [main/INFO]: Compatibility level set to JAVA_8
-[12:05:46] [main/ERROR]: Mixin config mixins.solclient.json does not specify "minVersion" property
-[12:05:46] [main/INFO]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[12:05:46] [main/INFO]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[12:05:46] [main/INFO]: Remapping refMap mixins.solclient.refmap.json using /home/pauln07/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/22/srgs/srg-mcp.srg
-[12:05:46] [main/INFO]: Remapping refMap mixins.replaymod.refmap.json using /home/pauln07/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/22/srgs/srg-mcp.srg
-[12:05:46] [main/INFO]: Remapping refMap mixins.replaymod.refmap.json using /home/pauln07/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/22/srgs/srg-mcp.srg
-[12:05:46] [main/INFO]: Remapping refMap mixins.replaymod.refmap.json using /home/pauln07/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/22/srgs/srg-mcp.srg
-[12:05:46] [main/INFO]: Remapping refMap mixins.replaymod.refmap.json using /home/pauln07/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/22/srgs/srg-mcp.srg
-[12:05:47] [main/INFO]: Remapping refMap mixins.replaymod.refmap.json using /home/pauln07/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/22/srgs/srg-mcp.srg
-[12:05:47] [main/INFO]: Remapping refMap mixins.replaymod.refmap.json using /home/pauln07/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/22/srgs/srg-mcp.srg
-[12:05:47] [main/WARN]: Error loading class: net/minecraftforge/fml/common/network/handshake/NetworkDispatcher (java.lang.ClassNotFoundException: The specified class 'net.minecraftforge.fml.common.network.handshake.NetworkDispatcher' was not found)
-[12:05:47] [main/WARN]: @Mixin target net.minecraftforge.fml.common.network.handshake.NetworkDispatcher was not found mixins.recording.replaymod.json:MixinNetworkDispatcher
-[12:05:47] [main/WARN]: Error loading class: net/minecraftforge/client/GuiIngameForge (java.lang.ClassNotFoundException: The specified class 'net.minecraftforge.client.GuiIngameForge' was not found)
-[12:05:47] [main/WARN]: @Mixin target net.minecraftforge.client.GuiIngameForge was not found mixins.render.replaymod.json:Mixin_SkipHudDuringRender
-[12:05:48] [main/WARN]: Error loading class: net/minecraft/client/renderer/WorldRenderer$LocalRenderInformationContainer (java.lang.ClassNotFoundException: The specified class 'net.minecraft.client.renderer.WorldRenderer$LocalRenderInformationContainer' was not found)
-[12:05:48] [main/WARN]: @Mixin target net.minecraft.client.renderer.WorldRenderer$LocalRenderInformationContainer was not found mixins.render.blend.replaymod.json:ContainerLocalRenderInformationAccessor
-[12:05:48] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[12:05:50] [Client thread/INFO]: Setting user: Player880
-[12:05:50] [Client thread/INFO]: (Session ID is ☃︎)
-[12:05:52] [Client thread/INFO]: LWJGL Version: 2.9.3
-[12:05:53] [Client thread/INFO]: Reloading ResourceManager: Default
-[12:05:53] [Client thread/ERROR]: Couldn't initialize twitch stream
-[12:05:53] [Client thread/INFO]: Initialising...
-[12:05:53] [Client thread/INFO]: Loading settings...
-[12:05:53] [Client thread/INFO]: Loading mods...
-[12:05:53] [Client thread/INFO]: Loaded 34 mods
-[12:05:53] [Client thread/INFO]: Saving settings...
-[12:05:53] [Client thread/INFO]: Starting culling thread...
-[12:05:53] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[12:05:54] [Thread-7/INFO]: Initializing LWJGL OpenAL
-[12:05:54] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[12:05:54] [Thread-7/INFO]: OpenAL initialized.
-[12:05:54] [Sound Library Loader/INFO]: Sound engine started
-[12:05:55] [Client thread/INFO]: Created: 512x512 textures-atlas
-[12:05:56] [Client thread/WARN]: Method overwrite conflict for getHandler in mixins.render.replaymod.json:Mixin_StabilizeCamera, previously written by com.replaymod.render.mixin.Mixin_Omnidirectional_Rotation. Skipping method.
-[12:06:03] [Server thread/INFO]: Starting integrated minecraft server version 1.8.9
-[12:06:03] [Server thread/INFO]: Generating keypair
-[12:06:03] [Server thread/INFO]: Preparing start region for level 0
-[12:06:04] [Server thread/INFO]: Preparing spawn area: 82%
-[12:06:04] [Server thread/INFO]: Changing view distance to 12, from 10
-[12:06:04] [Netty Local Client IO #0/INFO]: Singleplayer Recording is disabled
-[12:06:05] [Server thread/INFO]: Player880[local:E:6690121c] logged in with entity id 410 at (-171.9446246815843, 80.0, 212.8694462296514)
-[12:06:05] [Server thread/INFO]: Player880 joined the game
-[12:06:07] [Server thread/INFO]: Player880 has just earned the achievement [Taking Inventory]
-[12:06:07] [Client thread/INFO]: [CHAT] Player880 has just earned the achievement [Taking Inventory]
-[12:06:08] [Server thread/INFO]: Saving and pausing game...
-[12:06:08] [Server thread/INFO]: Saving chunks for level 'test'/Overworld
-[12:06:09] [Server thread/INFO]: Saving chunks for level 'test'/Nether
-[12:06:09] [Server thread/INFO]: Saving chunks for level 'test'/The End
-[12:07:57] [Server thread/INFO]: Saving and pausing game...
-[12:07:57] [Server thread/INFO]: Saving chunks for level 'test'/Overworld
-[12:07:57] [Server thread/INFO]: Saving chunks for level 'test'/Nether
-[12:07:57] [Server thread/INFO]: Saving chunks for level 'test'/The End
-[12:07:59] [Server thread/INFO]: Stopping server
-[12:07:59] [Server thread/INFO]: Saving players
-[12:07:59] [Server thread/INFO]: Saving worlds
-[12:07:59] [Server thread/INFO]: Saving chunks for level 'test'/Overworld
-[12:07:59] [Server thread/INFO]: Saving chunks for level 'test'/Nether
-[12:07:59] [Server thread/INFO]: Saving chunks for level 'test'/The End
-[12:08:02] [Client thread/INFO]: Stopping!
-[12:08:02] [Client thread/INFO]: SoundSystem shutting down...
-[12:08:02] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[05:18:49] [main/INFO]: Extra: [--tweakClass, me.mcblueparrot.client.tweak.Tweaker]
+[05:18:49] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, /home/pauln07/.gradle/caches/minecraft/assets, --assetIndex, 1.8, --accessToken{REDACTED}, --version, 1.8.9, --tweakClass, me.mcblueparrot.client.tweak.Tweaker]
+[05:18:49] [main/INFO]: Loading tweak class name me.mcblueparrot.client.tweak.Tweaker
+[05:18:49] [main/INFO]: Using primary tweak class name me.mcblueparrot.client.tweak.Tweaker
+[05:18:49] [main/INFO]: Calling tweak class me.mcblueparrot.client.tweak.Tweaker
+[05:18:49] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/home/pauln07/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.7.11-SNAPSHOT/7a670207bdb97db418118ad1e9bb42424ff3776d/mixin-0.7.11-SNAPSHOT.jar Service=LaunchWrapper Env=UNKNOWN
+[05:18:49] [main/INFO]: FML platform manager could not load class cpw.mods.fml.relauncher.CoreModManager. Proceeding without FML support.
+[05:18:49] [main/INFO]: Compatibility level set to JAVA_8
+[05:18:49] [main/ERROR]: Mixin config mixins.solclient.json does not specify "minVersion" property
+[05:18:49] [main/INFO]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[05:18:49] [main/INFO]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[05:18:49] [main/INFO]: Remapping refMap mixins.solclient.refmap.json using /home/pauln07/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/22/srgs/srg-mcp.srg
+[05:18:49] [main/INFO]: Remapping refMap mixins.replaymod.refmap.json using /home/pauln07/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/22/srgs/srg-mcp.srg
+[05:18:49] [main/INFO]: Remapping refMap mixins.replaymod.refmap.json using /home/pauln07/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/22/srgs/srg-mcp.srg
+[05:18:49] [main/INFO]: Remapping refMap mixins.replaymod.refmap.json using /home/pauln07/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/22/srgs/srg-mcp.srg
+[05:18:49] [main/INFO]: Remapping refMap mixins.replaymod.refmap.json using /home/pauln07/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/22/srgs/srg-mcp.srg
+[05:18:50] [main/INFO]: Remapping refMap mixins.replaymod.refmap.json using /home/pauln07/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/22/srgs/srg-mcp.srg
+[05:18:50] [main/INFO]: Remapping refMap mixins.replaymod.refmap.json using /home/pauln07/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/22/srgs/srg-mcp.srg
+[05:18:50] [main/WARN]: Error loading class: net/minecraftforge/fml/common/network/handshake/NetworkDispatcher (java.lang.ClassNotFoundException: The specified class 'net.minecraftforge.fml.common.network.handshake.NetworkDispatcher' was not found)
+[05:18:50] [main/WARN]: @Mixin target net.minecraftforge.fml.common.network.handshake.NetworkDispatcher was not found mixins.recording.replaymod.json:MixinNetworkDispatcher
+[05:18:50] [main/WARN]: Error loading class: net/minecraftforge/client/GuiIngameForge (java.lang.ClassNotFoundException: The specified class 'net.minecraftforge.client.GuiIngameForge' was not found)
+[05:18:50] [main/WARN]: @Mixin target net.minecraftforge.client.GuiIngameForge was not found mixins.render.replaymod.json:Mixin_SkipHudDuringRender
+[05:18:50] [main/WARN]: Error loading class: net/minecraft/client/renderer/WorldRenderer$LocalRenderInformationContainer (java.lang.ClassNotFoundException: The specified class 'net.minecraft.client.renderer.WorldRenderer$LocalRenderInformationContainer' was not found)
+[05:18:50] [main/WARN]: @Mixin target net.minecraft.client.renderer.WorldRenderer$LocalRenderInformationContainer was not found mixins.render.blend.replaymod.json:ContainerLocalRenderInformationAccessor
+[05:18:50] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[05:18:52] [Client thread/INFO]: Setting user: Player195
+[05:18:52] [Client thread/INFO]: (Session ID is ☃︎)
+[05:18:54] [Client thread/INFO]: LWJGL Version: 2.9.3
+[05:18:54] [Client thread/INFO]: Reloading ResourceManager: Default
+[05:18:54] [Client thread/ERROR]: Couldn't initialize twitch stream
+[05:18:54] [Client thread/INFO]: Initialising...
+[05:18:55] [Client thread/INFO]: Loading settings...
+[05:18:55] [Client thread/INFO]: Loading mods...
+[05:18:55] [Client thread/INFO]: Loaded 34 mods
+[05:18:55] [Client thread/INFO]: Saving settings...
+[05:18:55] [Client thread/INFO]: Starting culling thread...
+[05:18:55] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[05:18:55] [Thread-7/INFO]: Initializing LWJGL OpenAL
+[05:18:55] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[05:18:55] [Thread-7/INFO]: OpenAL initialized.
+[05:18:55] [Sound Library Loader/INFO]: Sound engine started
+[05:18:56] [Client thread/INFO]: Created: 512x512 textures-atlas
+[05:18:57] [Client thread/WARN]: Method overwrite conflict for getHandler in mixins.render.replaymod.json:Mixin_StabilizeCamera, previously written by com.replaymod.render.mixin.Mixin_Omnidirectional_Rotation. Skipping method.
+[05:19:05] [Server thread/INFO]: Starting integrated minecraft server version 1.8.9
+[05:19:05] [Server thread/INFO]: Generating keypair
+[05:19:05] [Server thread/INFO]: Preparing start region for level 0
+[05:19:06] [Server thread/INFO]: Changing view distance to 12, from 10
+[05:19:07] [Netty Local Client IO #0/INFO]: Singleplayer Recording is disabled
+[05:19:07] [Server thread/INFO]: Player195[local:E:ba44092e] logged in with entity id 308 at (2.4999924507484313E7, 64.0, 2.500001874764159E7)
+[05:19:07] [Server thread/INFO]: Player195 joined the game
+[05:19:11] [Server thread/INFO]: <Player195> ☃︎
+[05:19:11] [Client thread/INFO]: [CHAT] <Player195> ☃︎
+[05:19:14] [Server thread/INFO]: Saving and pausing game...
+[05:19:14] [Server thread/INFO]: Saving chunks for level 'test'/Overworld
+[05:19:14] [Server thread/INFO]: Saving chunks for level 'test'/Nether
+[05:19:14] [Server thread/INFO]: Saving chunks for level 'test'/The End
+[05:19:29] [Server thread/INFO]: Saving and pausing game...
+[05:19:29] [Server thread/INFO]: Saving chunks for level 'test'/Overworld
+[05:19:29] [Server thread/INFO]: Saving chunks for level 'test'/Nether
+[05:19:29] [Server thread/INFO]: Saving chunks for level 'test'/The End
+[05:19:32] [Culling Thread/ERROR]: Culling Thread has crashed:
+java.lang.AbstractMethodError
+	at me.mcblueparrot.client.culling.CullTask.run(CullTask.java:128) ~[CullTask.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_312]
+[05:19:38] [Server thread/INFO]: Saving and pausing game...
+[05:19:38] [Server thread/INFO]: Saving chunks for level 'test'/Overworld
+[05:19:38] [Server thread/INFO]: Saving chunks for level 'test'/Nether
+[05:19:38] [Server thread/INFO]: Saving chunks for level 'test'/The End
+[05:19:39] [Server thread/INFO]: Stopping server
+[05:19:39] [Server thread/INFO]: Saving players
+[05:19:39] [Server thread/INFO]: Saving worlds
+[05:19:39] [Server thread/INFO]: Saving chunks for level 'test'/Overworld
+[05:19:39] [Server thread/INFO]: Saving chunks for level 'test'/Nether
+[05:19:39] [Server thread/INFO]: Saving chunks for level 'test'/The End
+[05:19:40] [Client thread/INFO]: Stopping!
+[05:19:40] [Client thread/INFO]: SoundSystem shutting down...
+[05:19:40] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

@@ -19,6 +19,7 @@ public class SolClientMod extends ConfigOnlyMod {
 	@ConfigOption("UI Colour")
 	public Colour uiColour = new Colour(255, 180, 0);
 	public Colour uiHover;
+	public Colour uiActive = new Colour(255, 0, 0, 150);
 
 	@Expose
 	@ConfigOption("Fancy Font")
